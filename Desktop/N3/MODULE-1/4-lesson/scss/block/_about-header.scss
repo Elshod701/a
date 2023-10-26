@@ -1,0 +1,21 @@
+.slash {
+  height: 48px;
+  @include flex;
+  .slash_grey {
+    color: var(--c-1-c, #a9a9a9);
+    font-family: "Poppins 400";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .slash_black {
+    color: var(--c-1-a, #151515);
+    font-family: "Poppins 400";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+

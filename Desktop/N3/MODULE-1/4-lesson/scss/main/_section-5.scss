@@ -1,0 +1,159 @@
+.s5 {
+  padding: 64px 0;
+  width: 1260px;
+  height: 596px;
+  margin: 0 auto;
+  .info_button {
+    @include flex;
+    margin-bottom: 32px;
+    h2 {
+      color: var(--c-1-a, #151515);
+      font-family: "Poppins 600";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    button {
+      color: var(--c-1-a, #151515);
+      font-family: "Poppins 700";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      display: flex;
+      padding: 6px 12px;
+      align-items: center;
+      gap: 6px;
+      border-radius: 12px;
+      background: var(--c-1-j, #f6f6f6);
+      border: none;
+    }
+  }
+
+  .advert-s5 {
+    display: flex;
+    justify-content: space-between;
+    &-1 {
+      background-image: url(/assets/images/food.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 469px;
+      height: 400px;
+      position: relative;
+      padding: 24px 65px 24px 24px;
+      &-sale {
+        color: var(--c-2-a, #6a983c);
+        font-family: "Poppins 600";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: absolute;
+        z-index: 2;
+        display: inline-flex;
+        padding: 0px 8px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: var(--c-2-e, #f4f8ec);
+        top: 24px;
+        left: 24px;
+      }
+      &-title {
+        color: var(--c-1-j, #fff);
+        font-family: "Poppins 600";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 250px;
+      }
+      &-admin {
+        @include flex;
+        width: 156px;
+        height: 32px;
+        color: var(--c-1-j, #fff);
+        font-family: "Poppins 400";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    &-2 {
+      width: 269px;
+      height: 343px;
+      border-radius: 12px;
+      position: relative;
+
+      &-sale {
+        color: var(--c-2-a, #6a983c);
+        font-family: "Poppins 600";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        position: absolute;
+        z-index: 2;
+        display: inline-flex;
+        padding: 0px 8px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: var(--c-2-e, #f4f8ec);
+        top: 205px;
+        left: 0px;
+      }
+      &-title {
+        color: var(--c-1-a, #151515);
+        font-family: "Poppins 600";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 50px;
+      }
+      &-admin {
+        @include flex;
+        width: 156px;
+        height: 32px;
+        color: var(--c-1-j, #fff);
+        font-family: "Poppins 400";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 16px;
+      }
+    }
+
+    &-3 {
+      .advert-s5-3 {
+        &-card {
+          width: 369px;
+          @include flex;
+          margin-bottom: 32px;
+
+          .advert-s5-3-title {
+            color: var(--c-1-a, #151515);
+            font-family: "Poppins 500";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          .advert-s5-1-admin {
+            color: var(--c-1-a, #151515);
+            font-size: 12px;
+            font-style: normal;
+            line-height: normal;
+            font-family: "Poppins 400";
+            line-height: normal;
+            width: 110px;
+          }
+        }
+      }
+    }
+  }
+}

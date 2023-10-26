@@ -1,0 +1,132 @@
+.section-1 {
+  .about_title {
+    padding-bottom: 16px;
+    color: var(--c-1-a, #151515);
+    font-family: "Poppins 600";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .all-radio {
+    width: 236px;
+    display: flex;
+    padding: 9px 16px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--c-1-d, #d1d1d1);
+    background: var(--c-1-h, #f9f9f9);
+    &-1 {
+      @include flex;
+      gap: 4px;
+    }
+    &-2 {
+      font-family: "Poppins 600";
+      display: flex;
+      padding: 9px 16px;
+      align-items: center;
+      gap: 16px;
+      border-radius: 12px;
+      border: 1px solid var(--c-1-d, #d1d1d1);
+      background: var(--c-1-h, #f9f9f9);
+      p {
+        display: flex;
+        padding: 0px 8px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        border: 1px solid var(--c-1-e, #cdc9c9);
+      }
+    }
+  }
+}
+.all-radio-all {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nbm {
+  color: var(--c-1-a, #151515);
+  font-family: "Poppins 600";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.all-radio-3 {
+  display: flex;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--c-1-d, #d1d1d1);
+  background: var(--c-1-h, #f9f9f9);
+  width: 235px;
+  height: 42px;
+  color: var(--c-1-a, #151515);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Poppins 600";
+}
+
+#all {
+  color: var(--c-1-a, #151515);
+  font-family: Poppins 600;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-left: 1px solid #d1d1d1;
+  padding: 0 0 0 20px;
+}
+
+.nimadur {
+  @include flex;
+  .extra {
+    @include flex;
+    gap: 24px;
+    &-1 {
+      @include flex;
+      gap: 4px;
+      font-family: "Poppins 400";
+      color: var(--c-1-a, #151515);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &-2 {
+      @include flex;
+      color: var(--c-1-c, #a9a9a9);
+      font-family: "Poppins 400";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      gap: 4px;
+    }
+    &-3 {
+      @include flex;
+      gap: 4px;
+      color: var(--c-1-c, #a9a9a9);
+      font-family: "Poppins 400";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      .num {
+        display: flex;
+        padding: 0px 8px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: var(--c-2-e, #f4f8ec);
+        color: green;
+      }
+    }
+  }
+}

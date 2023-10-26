@@ -1,0 +1,281 @@
+.section-2 {
+  height: 1656px;
+  padding: 64px 0px;
+  margin: 0 auto;
+  .container {
+    width: 1170px;
+    height: 1582px;
+    display: flex;
+    justify-content: space-between;
+    .aside {
+      width: 269px;
+      height: 939px;
+      gap: 48px;
+      .first {
+        padding-bottom: 48px;
+      }
+      &-part-1-title {
+        color: var(--c-1-a, #151515);
+        font-family: "Poppins 600";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      &-part-1 {
+        @include flex;
+        padding-top: 12px;
+        font-family: "Poppins 500";
+      }
+      .num {
+        display: flex;
+        padding: 0px 8px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: var(--c-2-e, #f4f8ec);
+        color: green;
+        font-family: "Poppins 400";
+        display: flex;
+        padding: 0px 8px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: var(--c-2-e, #f4f8ec);
+      }
+
+      .second {
+        &-title {
+          color: var(--c-1-a, #151515);
+          font-family: "Poppins 600";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        &-items {
+          margin-top: 16px;
+          .first-s2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--c-1-a, #151515);
+            font-family: "Poppins 400";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 12px;
+          }
+        }
+      }
+      .third {
+        margin: 48px 0;
+        &-title {
+          color: var(--c-1-a, #151515);
+          font-family: "Poppins 600";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        &-items {
+          margin-top: 16px;
+          .first-s3 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--c-1-a, #151515);
+            font-family: "Poppins 400";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 12px;
+          }
+        }
+      }
+
+      .fourth {
+        width: 251px;
+        height: 218px;
+        #fourth-title {
+          color: var(--c-1-a, #151515);
+          font-family: "Poppins 600";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        form {
+          padding: 8px 0 16px 0;
+        }
+
+        .min-max {
+          @include flex;
+          .min-title {
+            color: var(--c-1-a, #151515);
+            font-family: "Poppins 600";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+          .max-title {
+            color: var(--c-1-a, #151515);
+            font-family: "Poppins 600";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+        }
+        &_buttons {
+          margin-top: 31px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 200px;
+          &_btn {
+            color: var(--c-1-j, #fff);
+            font-family: "Poppins 700";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            display: inline-flex;
+            height: 48px;
+            padding: 12px 16px;
+            align-items: center;
+            gap: 6px;
+            flex-shrink: 0;
+            border-radius: 12px;
+            border: 2px solid var(--c-2-b, #46760a);
+            background: var(--c-2-a, #6a983c);
+          }
+          &_reset {
+            color: var(--c-1-c, #a9a9a9);
+            font-family: "Poppins 700";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+      }
+    }
+    .cards {
+      width: 871px;
+      height: 1528px;
+      &-1 {
+        height: 280px;
+        border-radius: 12px;
+        border: 1px solid var(--c-1-d, #d1d1d1);
+        background: var(--c-1-j, #fff);
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 32px;
+        .cards-1-product {
+          padding: 32px;
+          line-height: 32px;
+          display: flex;
+          .product-info {
+            width: 269px;
+            height: 212px;
+            &-title {
+              color: var(--c-1-a, #151515);
+              font-family: "Poppins 600";
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            &-info {
+              color: var(--c-1-b, #575757);
+              font-size: 12px;
+              font-family: "Poppins 400";
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            .info-types {
+              width: 237px;
+              height: 112px;
+              color: var(--c-1-c, #a9a9a9);
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              font-family: "Poppins 400";
+              line-height: normal;
+              .info-types-1 {
+                line-height: 32px;
+
+                @include flex;
+              }
+            }
+          }
+          .product-price {
+            width: 172px;
+            height: 216px;
+            font-family: "Poppins 400";
+            .main-price {
+              color: var(--c-1-a, #151515);
+              font-family: "Poppins 600";
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            .extra-price {
+              color: var(--c-1-c, #a9a9a9);
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              text-decoration-line: strikethrough;
+              margin-bottom: 16px;
+            }
+            .price-info {
+              color: var(--c-1-c, #a9a9a9);
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            .product-btn {
+              display: flex;
+              padding: 12px 16px;
+              align-items: center;
+              border-radius: 12px;
+              border: 2px solid var(--c-2-b, #46760a);
+              background: var(--c-2-a, #6a983c);
+              color: var(--c-1-j, #fff);
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin: 24px 0px 12px 0;
+              margin-left: 8px;
+            }
+            .product-btn-2 {
+              color: var(--c-1-a, #151515);
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              display: flex;
+              height: 36px;
+              padding: 6px 12px;
+              align-items: center;
+              gap: 8px;
+              border: none;
+              border-radius: 12px;
+              background: var(--c-1-f, #f5f5f5);
+            }
+          }
+        }
+      }
+    }
+  }
+}

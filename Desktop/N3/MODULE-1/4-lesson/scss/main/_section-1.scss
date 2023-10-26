@@ -1,0 +1,45 @@
+.s1 {
+  width: 1260px;
+  height: 410px;
+  margin: 0 auto;
+  padding: 65px 0;
+  .container {
+    height: 280px;
+    .section_1 {
+      @include flex;
+      .category_menu {
+        &_title {
+          color: #151515;
+          font-family: "Poppins 600";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 16px;
+        }
+        &_item {
+          color: #6a983c;
+          font-family: "Poppins 400";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration-line: underline;
+          padding-bottom: 12px;
+        }
+        &_btn {
+          margin-top: 25px;
+          display: flex;
+          height: 48px;
+          padding: 6px 16px;
+          align-items: center;
+          gap: 6px;
+          border-radius: 12px;
+          background: #f5f5f5;
+          border: none;
+          font-family: "Poppins 400";
+        }
+      }
+    }
+  }
+}
